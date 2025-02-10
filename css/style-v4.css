@@ -64,7 +64,7 @@ main {
     display: block;
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 .swiper-slide {
     background-size: cover;
@@ -884,7 +884,7 @@ flex: 1;
 .comparison__items {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
     gap: 5px;
     padding: 0 16px;
     height: 72px;
